@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+
+    <form>
+
+        <legend>Your Reservation</legend>
+
+        <label for="Arrival_date">Arrival date</label>
+        <input id="Arrival_date" type="date" name="Arrival_date">
+
+        <label for="Departure_date">Departure date</label>
+        <input id="Departure_date" type="date" name="Departure_date">
+
+        <br><br>
+
+        <label for="count_Adults">Adults</label>
+        <input id="count_Adults" type="number" name="count_Adults" min="1" max="100">
+
+        <label for="count_Children">Children</label>
+        <input id="count_Children" type="number" name="count_Children" min="0" max="100">
+
+        <br><br>
+
+        <label>Room category</label>
+        <br><br>
+
+        <input type="radio" id="single" name="room" value="Single room">
+        <label for="single">Single room</label>
+
+        <input type="radio" id="double" name="room" value="Double room">
+        <label for="double">Double room</label>
+
+        <br><br>
+
+        <label for="Wishes_Comments">Wishes/Comments</label>
+        <br>
+
+        <textarea id="Wishes_Comments" name="Wishes_Comments"></textarea>
+
+
+
+
+        <legend>Contact details</legend>
+
+        <label for="First_name">First name</label>
+        <input id="First_name" type="text" name="First_name">
+
+        <label for="Family_name">Family name</label>
+        <input id="Family_name" type="text" name="Family_name">
+
+        <br><br>
+
+        <label for="Address_name">Address</label>
+        <input id="Address_name" type="text" name="Address_name">
+
+        <br><br>
+
+        <label for="Pin_code">ZIP Code</label>
+        <input id="Pin_code" type="tel" name="Pin_code">
+
+        <label for="City">City</label>
+        <input id="City" type="text" name="City">
+
+        <br><br>
+
+        <label for="Phone">Phone</label>
+        <input id="Phone" type="tel" name="Phone">
+
+        <label for="Email_address">Email address</label>
+        <input id="Email_address" type="email" name="Email_address">
+
+        <br><br>
+
+        <input type="checkbox" id="agree" name="agree" value="yes">
+        <label for="agree">I agree to the processing of my entries.</label>
+
+        <br><br>
+
+        <input type="submit" id="submit" value="Submit reservation">
+
+
+
+    </form>
+
+</body>
+</html>
